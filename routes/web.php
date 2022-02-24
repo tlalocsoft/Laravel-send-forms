@@ -22,6 +22,9 @@ Route::prefix('emails')->group(function () {
     Route::get('/uno', [MailController::class, 'emailUno']);
 });
 
+//NUEVO CODIGO AÑADIDO PARA PRUEBAS 
+
+
 
 
 
